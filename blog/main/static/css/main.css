@@ -1,0 +1,28 @@
+aside {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    background: #aaa
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+aside p3 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+main .features {
+    float: left;
+}
+
+form {
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 32%;
+}

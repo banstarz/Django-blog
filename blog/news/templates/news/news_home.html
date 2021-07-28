@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    Новости
+{% endblock %}
+
+{% block content%}
+    <div class="features">
+        <h1>Новости</h1>
+        {% for el in news%}
+            <a href="{% url 'news-detail' el.id %}"><p>{{el.title}}</p></a>
+            <p>&nbsp&nbsp{{el.anons}}</p>
+        {% endfor %}
+    </div>
+{% endblock %}
